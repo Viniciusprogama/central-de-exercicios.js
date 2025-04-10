@@ -91,10 +91,40 @@ function exemplofor4(){
 function exemplofor5(){
 
 
-    let numero = Math.floor(Math.random() * 100) + 1;
-    alert(numero);
-    alert("tente adivinhar o numero")
-    let = prompt("o valor e")
+     let numero = Math.floor(Math.random() * 100) + 1;
 
+    let tentativa;
+
+    
+    while (tentativa != numero){
+
+    tentativa = prompt("insira o numero");
+
+    if(numero > tentativa){
+
+        alert("o numero e maior");
+
+    }else if(numero < tentativa){
+
+        alert("o numero e menor");
+    }else{
+        alert("voce acertou")
+
+    }
+    
 }
+    
+}
+
 exemplofor5()
+
+function exemplofor6(){
+
+    let valor = prompt("digite o valor")
+    while ( valor >= 0){
+
+        alert(valor)
+        valor--
+
+    }
+}
