@@ -9,6 +9,7 @@ function exercios01() {
 
     }
 
+    gerarlog("exercicio de maioridade executado no alert" + new Date().toLocaleDateString());
 }
 
 
@@ -151,7 +152,16 @@ function exercios07(){
   }
   
   
+  function gerarlog (textoDoLog) {
 
-  
+    let logsContainer = document.querySelector(".logs-container");
+
+    let paragraph = document.querySelector("p");
+
+    paragraph.innerHTML = textoDoLog;
+
+    logsContainer.appendChild(paragraph);
+
+  }
   
   

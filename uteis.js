@@ -8,4 +8,3 @@ function exemplodefilter(){
 
 
 }
-exemplodefilter()

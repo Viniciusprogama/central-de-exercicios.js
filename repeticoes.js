@@ -116,7 +116,7 @@ function exemplofor5(){
     
 }
 
-exemplofor5()
+
 
 function exemplofor6(){
 
